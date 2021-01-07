@@ -65,7 +65,7 @@ Cayley table for the square is constructed below.
 | :---                | :----:          | :----:             | :----:              | :----:              | :----:          | :----:          | :----:           | :----:          |
 | **I**               | I               | R<sub>90</sub>     | R<sub>180</sub>     | R<sub>270</sub>     | H               | V               | D                | D'              |
 | **R<sub>90</sub>**  | R<sub>90</sub>  | R<sub>180</sub>    | R<sub>270</sub>     | I                   | D'              | D               | H                | V               |
-| **R<sub>180</sub>** | R<sub>180</sub> | R2R<sub>270</sub>  | I                   | R<sub>90</sub>      | V               | H               | D'               | D               |
+| **R<sub>180</sub>** | R<sub>180</sub> | R<sub>270</sub>    | I                   | R<sub>90</sub>      | V               | H               | D'               | D               |
 | **R<sub>270</sub>** | R<sub>270</sub> | I                  | R<sub>90</sub>      | R<sub>180</sub>     | D               | D'              | V                | H               |
 | **H**               | H               | D                  | V                   | D'                  | I               | R<sub>180</sub> | R<sub>90</sub>   | R<sub>270</sub> |
 | **V**               | V               | D'                 | H                   | D                   | R<sub>180</sub> | I               | R<sub>270</sub>  | R<sub>90</sub>  |
