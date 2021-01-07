@@ -1,7 +1,7 @@
 # Website under construction
 
 # Group Theory lesson overview
-* [Getting Started](https://davybob.github.io/GroupTheory/)
+* [Getting Started](https://davybob.github.io/GroupTheory/Getting_Started)
 * [Introduction](https://davybob.github.io/GroupTheory/)
 * [Abstract Groups](https://davybob.github.io/GroupTheory/)
 * [Subgroups](https://davybob.github.io/GroupTheory/)
