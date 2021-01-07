@@ -22,16 +22,16 @@ the same net effect on every point. The same goes for a rotation of 180 degrees 
 With that being said, we are now in a position to describe, in it's simplest form, all possible
 symmetries of this square. See table below (Rotations are counter-clockwise).
 
- | Symmetry |                                    Image                                                | Description         |
- | :---     |                                    :----:                                               |         ---:        |
- | I        | ![alt text](https://github.com/davybob/GroupTheory/images/I.png "Original square")      | Original square     |
- | R        | ![alt text](https://github.com/davybob/GroupTheory/images/R.png "90° rotation")         | 90° rotation        |
- | R'       | ![alt text](https://github.com/davybob/GroupTheory/images/R2.png "180° rotation")       | 180° rotation       |
- | R''      | ![alt text](https://github.com/davybob/GroupTheory/images/R3.png "270° rotation")       | 270° rotation       |
- | H        | ![alt text](https://github.com/davybob/GroupTheory/images/H.png "Horizontal flip")      | Horizontal flip     |
- | V        | ![alt text](https://github.com/davybob/GroupTheory/images/V.png "Vertical flip")        | Vertical flip       |
- | D        | ![alt text](https://github.com/davybob/GroupTheory/images/D.png "Main diagonal flip")   | Main diagonal flip  |
- | D'       | ![alt text](https://github.com/davybob/GroupTheory/images/D2.png "Other diagonal flip") | Other diagonal flip |   
+ | Symmetry |                                    Image                                                             | Description         |
+ | :---     |                                    :----:                                                            |         ---:        |
+ | I        | ![alt text](https://github.com/davybob/GroupTheory/tree/Website/images/I.png "Original square")      | Original square     |
+ | R        | ![alt text](https://github.com/davybob/GroupTheory/tree/Website/images/R.png "90° rotation")         | 90° rotation        |
+ | R'       | ![alt text](https://github.com/davybob/GroupTheory/tree/Website/images/R2.png "180° rotation")       | 180° rotation       |
+ | R''      | ![alt text](https://github.com/davybob/GroupTheory/tree/Website/images/R3.png "270° rotation")       | 270° rotation       |
+ | H        | ![alt text](https://github.com/davybob/GroupTheory/tree/Website/images/H.png "Horizontal flip")      | Horizontal flip     |
+ | V        | ![alt text](https://github.com/davybob/GroupTheory/tree/Website/images/V.png "Vertical flip")        | Vertical flip       |
+ | D        | ![alt text](https://github.com/davybob/GroupTheory/tree/Website/images/D.png "Main diagonal flip")   | Main diagonal flip  |
+ | D'       | ![alt text](https://github.com/davybob/GroupTheory/tree/Website/images/D2.png "Other diagonal flip") | Other diagonal flip |   
 
 
 We can see that a square has exactly eight distinct symmetries.
