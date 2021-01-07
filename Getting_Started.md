@@ -39,7 +39,7 @@ Let us now do a little bit of investigation about these symmetries. Suppose a sq
 is rotated by 180° then flipped horizontally. The resulting 'multiplication' of transformation would be
 equivalent to a vertical flip as shown in Figure 1.
 
-![Combined Transformation](https://github.com/davybob/GroupTheory/images/D2.png "Other diagonal flip")
+![Combined Transformation](https://github.com/davybob/GroupTheory/tree/Website/images/D2.png "Other diagonal flip")
 
 This example shows that applying two transformation is equivalent to applying some one
 transformation.
