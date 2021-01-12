@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Symmetries</title>
+</head>
+ <body bgcolor="FFFFCC">
+   
+<table cellspacing="20" cellpadding="0" width="white-space: nowrap">
+
+<tbody><tr>
+<td valign="TOP" colspan="2">
+<font size="-1">
+<font color="#D60021"></font>
+<font color="#D60021">←<a href="../eda.htm" >Introduction</a></font>
+<br>
+<font color="#D60021">→</font>
+  <font color="#00105A"><a href="eda1.htm" class="Tright">Symmetries</a></font>
+  </font>
+<br>
+<table>
+<tbody><tr>
+<td valign="top">
+<h2><font color="#D60021">2.</font></h2>
+</td>
+<td valign="top">
+<h2>Symmetries</h2>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+
+<!-----Ramble----->
+
+<tr>
+<td width="15%" valign="top">
+<i>Ramble</i>
+</td>
+
+<td valign="TOP" width="75%">
+Before we begin our formal analysis of groups we should get an intuitive 
+sense of what a group is.
+The symmetries of geometrical shapes provide an ideal start to this intuition.
+We will start by studying the symmetries of a square and then observing how this can
+be expanded to symmetries of any sized polygon.
+</td>
+</tr>
+
+<!-----Formality----->
+
+<tr>
+<td width="15%" valign="top">
+<i>The Square</i>
+</td>
+
+<td valign="TOP" width="85%">
+Imagine a coloured cardboard square laid on a plane with fixed axes, so that the centre of the
+square falls on the origin. See Figure 1.1.
+<div title="F">
+  <img src=href="/davybob/GroupTheory/blob/Website/images/I.png" alt="Fig 1.1" width="300" height="200">
+  <br>Fig 1.1
+</div>
+<br>
+We can see by observation that the square has 
+<b>rotational symmetry</b>, (90°, 180°, or 270° rotation, we still get a square!)
+and <b>reflexive symmetry</b> (horizontal, vertical, topright-bottomleft, or topleft-bottomright flip, we still get a square!)
+  
+  </td>
+</tr>
+
+<!-----Symbols----->
+
+<tr>
+<td width="15%" valign="top">
+<i>Symbols</i>
+</td>
+
+<td valign="TOP" width="85%">
+Let us formally define these symmetries as such:
+ <br>
+  <center>
+  <table style="width:75%; border: 1px solid black; border-collapse: collapse; text-align: center; vertical-align: middle;">
+  <tr>
+    <th>Symmetry</th>
+    <th>Image</th> 
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>I</td>
+    <td><img src="/davybob/GroupTheory/blob/Website/images/I.png" alt="Fig 1.1" width="45" height="45" ></td>
+    <td>Original square</td>
+  </tr>
+  <tr>
+    <td>R</td>
+    <td><img src="/davybob/GroupTheory/blob/Website/images/R.png" alt="Fig 1.2" width="45" height="45" ></td>
+    <td>90° rotation</td>
+  </tr>
+  <tr>
+    <td>R'</td>
+    <td><img src="/davybob/GroupTheory/blob/Website/images/R2.png" alt="Fig 1.3" width="45" height="45" ></td>
+    <td>180° rotation</td>
+  </tr>
+  <tr>
+    <td>R''</td>
+    <td><img src="/davybob/GroupTheory/blob/Website/images/R3.png" alt="Fig 1.4" width="45" height="45" ></td>
+    <td>270° rotation</td>
+  </tr>
+  <tr>
+    <td>H</td>
+    <td><img src="/davybob/GroupTheory/blob/Website/images/H.png" alt="Fig 1.5" width="45" height="45" ></td>
+    <td>Horizontal flip</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td><img src="/davybob/GroupTheory/blob/Website/images/V.png" alt="Fig 1.6" width="45" height="45" ></td>
+    <td>Vertical flip</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td><img src="/davybob/GroupTheory/blob/Website/images/D.png" alt="Fig 1.7" width="45" height="45" ></td>
+    <td>Main diagonal flip</td>
+  </tr>
+   <tr>
+    <td>D'</td>
+    <td><img src="/davybob/GroupTheory/blob/Website/images/D2.png" alt="Fig 1.8" width="45" height="45" ></td>
+    <td>Other diagonal flip</td>
+  </tr>
+</table>
+</center>
+<br>
+What would happen, if we were to, oh say, flip horizontally then rotate the square 90°. Visually we see that this 'multiplication' of motions is equivalent to one single motion (Can you see which one?)
+<br>This is no coincidence, infact any two motions when applied one after another ("composed motions") yields a previously seen motion. (No new motions can be 
+created from our set of motions. This property is known as closure and is one of the four
+requirements for a system to be a group, but more on this later!)
+</td>
+</tr>
+<!-----Algebra----->
+
+<tr>
+<td width="15%" valign="top">
+<i>Algebra</i>
+</td>
+
+<td valign="TOP" width="85%">
+Algebraically we can write this composed motion, using our previously defined symbols as:
+  <br>
+  <center>
+	HR = D (The net effect on the vertices are the same!)
+  </center>
+What if we applied the motion in reverse (rotate then flip)? Let's look at this motion visually
+	<br>
+  <center>
+    <table style="width:35%; border: 1px solid black; border-collapse: collapse; text-align: center; vertical-align: middle;">
+<tr>
+    <td><img src=href="/davybob/GroupTheory/blob/Website/images/H.png" alt="Fig 1.5" width="45" height="45" > *</td>
+    <td><img src=href="/davybob/GroupTheory/blob/Website/images/R.png" alt="Fig 1.2" width="45" height="45" > =</td>
+    <td><img src=href="/davybob/GroupTheory/blob/Website/images/D2.png" alt="Fig 1.8" width="45" height="45" ></td>
+  </tr>
+  </table>
+</center>
+    <br>
+Algebraically this is written as
+	<br>
+  <center>RH=D'</center>
+This is interesting, HR ≠ RH. (We say that our composed motion 'multiplication' is NOT commutative)
+  When a system has the property that HR = RH we call it <b>abelian</b>. (We will see system with this property and their importance!)
+  <br>
+Let's reverse back a bit, earlier I wrote that our composed motions are closed, but I did not
+prove this property. There are two ways about proving my proposition; <br>1. Create a Cayley Table<br>or <br>2. Arguementative.<br>
+In this section we will prove closure using 1. Later we will come back and prove using 2.* (If you can't wait that long, follow astrix).
+</td>
+</tr>
+  
+  
+<!-----Cayley table----->
+<tr>
+<td width="15%" valign="top">
+<i>Cayley table</i>
+</td>
+
+<td valign="TOP" width="85%">
+A Cayley table is a multiplication table for a group. It is a convienent method of showing all possible multiplications in the system. Most (3/4) of the group properties can be verified on the table. It is named after Arthur Cayley a prolific British Mathematician who first created this table.
+The Cayley table for the square is given below.
+<center>
+<table style="width:75%; border: 1px solid black; border-collapse: collapse; text-align: center; vertical-align: middle;">
+<tr>
+<th align="left"></th>
+<th align="center"><strong>I</strong></th>
+<th align="center"><strong>R</strong></th>
+<th align="center"><strong>R'</strong></th>
+<th align="center"><strong>R''</strong></th>
+<th align="center"><strong>H</strong></th>
+<th align="center"><strong>V</strong></th>
+<th align="center"><strong>D</strong></th>
+<th align="center"><strong>D'</strong></th>
+</tr>
+<tbody>
+<tr>
+<td align="left"><strong>I</strong></td>
+<td align="center">I</td>
+<td align="center">R</td>
+<td align="center">R'</td>
+<td align="center">R''</td>
+<td align="center">H</td>
+<td align="center">V</td>
+<td align="center">D</td>
+<td align="center">D'</td>
+</tr>
+<tr>
+<td align="left"><strong>R</strong></td>
+<td align="center">R</td>
+<td align="center">R'</td>
+<td align="center">R''</td>
+<td align="center">I</td>
+<td align="center">D'</td>
+<td align="center">D</td>
+<td align="center">H</td>
+<td align="center">V</td>
+</tr>
+<tr>
+<td align="left"><strong>R'</strong></td>
+<td align="center">R'</td>
+<td align="center">R''</td>
+<td align="center">I</td>
+<td align="center">R</td>
+<td align="center">V</td>
+<td align="center">H</td>
+<td align="center">D'</td>
+<td align="center">D</td>
+</tr>
+<tr>
+<td align="left"><strong>R''</strong></td>
+<td align="center">R''</td>
+<td align="center">I</td>
+<td align="center">R</td>
+<td align="center">R'</td>
+<td align="center">D</td>
+<td align="center">D'</td>
+<td align="center">V</td>
+<td align="center">H</td>
+</tr>
+<tr>
+<td align="left"><strong>H</strong></td>
+<td align="center">H</td>
+<td align="center">D</td>
+<td align="center">V</td>
+<td align="center">D'</td>
+<td align="center">I</td>
+<td align="center">R'</td>
+<td align="center">R</td>
+<td align="center">R''</td>
+</tr>
+<tr>
+<td align="left"><strong>V</strong></td>
+<td align="center">V</td>
+<td align="center">D'</td>
+<td align="center">H</td>
+<td align="center">D</td>
+<td align="center">R'</td>
+<td align="center">I</td>
+<td align="center">R''</td>
+<td align="center">R</td>
+</tr>
+<tr>
+<td align="left"><strong>D</strong></td>
+<td align="center">D</td>
+<td align="center">V</td>
+<td align="center">D'</td>
+<td align="center">H</td>
+<td align="center">R''</td>
+<td align="center">R</td>
+<td align="center">I</td>
+<td align="center">R'</td>
+</tr>
+<tr>
+<td align="left"><strong>D'</strong></td>
+<td align="center">D'</td>
+<td align="center">H</td>
+<td align="center">D</td>
+<td align="center">V</td>
+<td align="center">R</td>
+<td align="center">R''</td>
+<td align="center">R'</td>
+<td align="center">I</td>
+</tr>
+</tbody>
+</table>
+</center>
+<br>
+We can staight away see that any two composed motions creates an already seen motion (the table is full). We say that the system is closed. Algebraically we write 
+  	<br>
+  <center>a,b ∈ G then ab ∈ G (where G is our system)</center>
+There is one particular motion that leaves the square as is; An identity motion I, this is the second property required for a group.
+  	<br>
+  <center>∀a, aI = Ia = a</center>
+Finally every motion is paired with another motion that yields the identity motion; An inverse motion exists, this is the third property required for a group.
+  	<br>
+  <center>Ǝa<sup>-1</sup>, a<sup>-1</sup>a = aa<sup>-1</sup> = I</center>
+Although it is not evident from the table, the system is associative. 
+We could show this but that would require calculating all 8<sup>3</sup> = 512 possible combinations of a, b, and c. *Easier to note that function composition is associative;
+	a,b,c ∈ G then a(bc) = (ab)c)
+</td>
+</tr>
+
+<!-----Dihedral groups----->
+
+<tr>
+<td width="15%" valign="top">
+<i>Dihedral Groups</i>
+</td>
+
+<td valign="TOP" width="85%">
+Now that we have a good starting example we could we apply this procedure to an equilaterial triangle or a regular pentagon or, indeed, any regular n-gon (n >= 3). The corresponding group is denoted by D<sub>n</sub> and is called the dihedral group of order 2n. 
+(The order of a group being the number of elements in that group, we can see the symmetries of any n-gon have n rotational symmetries nad n reflexive symmetries).<p></p>
+The dihedral groups arise frequently in art and nature. Many decorative designs used on pottery, buildings and floor coverings,
+have one of the dihedral groups as a group of symmetry. Corporate logos are a good source of dihedral groups (E.G Mercedes-Benz). 
+Even molecules have groups of symmetry (Look at ammonia NH3, it is equivalent to D3).<br>
+For further information on Dihedral Groups, I refer you to the source of information down below!
+
+</td>
+</tr>
+  
+  <!-----Look forward----->
+  
+  
+<tr>
+<td width="15%" valign="top">
+<i>Look forward</i>
+</td>
+
+<td valign="TOP" width="85%">
+In the next chapter we will  generalise the algebra of symmetries of a geometric object to the set of all bijections of any set S. (No neet for geometric constrictions) 
+
+</td>
+</tr>
+
+  
+  <!-----Sources & References----->
+  
+  
+<tr>
+<td width="15%" valign="top">
+<i>Sources, References</i>
+</td>
+
+<td valign="TOP" width="85%">
+Gallian, Joseph A. (2017). Contemporary Abstract Algebra, 9th edition. ISBN 978-1-305-65796-0.
+</td>
+</tr>
+  
+
+</tbody>
+</table>
+<font size="-1">* In general, a symmetry of a geometrical figure is, by definition, a one-to-one and onto mapping (bijection) of its points
+which preserves distances. One can check that any symmetry of the square must carry vertex 1 into one of the four possible 
+vertices, and that for each such choice, there are exactly 2 symmetries. Then in all, there are 8 symmetries; so we have them
+all accounted for.</font>
+
+</body>
+</html>
